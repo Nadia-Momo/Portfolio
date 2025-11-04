@@ -16,8 +16,10 @@ const Homepage = () => {
 
       <Navbar/>
       <Banner/>
-      {/* <About/>
+    
+      <About/>
       <Working/>
+      {/* 
       <View/>
       <Service/>
       <Award/>

@@ -14,7 +14,7 @@ const Navbar = () => {
   <div className="container pt-[27px]">
     <div className='flex items-center gap-[364px] '>
        <div>
-     <Image src={logo} className='w-[122px] h-[40px]'/>
+     <Image src={logo} alt={"logo"} className='w-[122px] h-[40px]'/>
     </div>
     <div>
       <ul className='text-[#00413D] flex gap-[88px] text-[18px] font-normal'>
@@ -26,8 +26,8 @@ const Navbar = () => {
       </ul>
     </div>
     <div className='flex gap-[25px]'>
-      <Image src={search}/>
-       <Image src={menubar}/>
+      <Image src={search} alt={'search'}/>
+       <Image src={menubar} alt={'search'}/>
     </div>
     </div>
    

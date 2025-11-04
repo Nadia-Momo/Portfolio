@@ -8,7 +8,7 @@ import author from '../images/author.png'
 const Banner = () => {
   return (
     <>
-<section className='bg-[#F9F4F1] z-[-10]'>
+<section className='bg-[#F9F4F1] '>
  
   <div className="container">
      <div className='flex gap-[137px]'>
@@ -23,9 +23,10 @@ const Banner = () => {
  <p className={`${vollkorn.className} underline text-[#E5745D] font-semibold text-[40px] mt-[25px]`}>Steven@gmai.com</p>
   </div>
   <div className='relative'>
-  <Image src={image1} className='pt-[62px] z-[10]'/>
-  {/* <Image src={shape} className='absolute top-0 left-0 w-[724px] h-[748px] z-[1]'/> */}
-  <Image src={author} className='absolute top-[160px] left-[80px] w-[500px]' />
+      <Image src={shape} alt={shape} className='absolute top-0 left-0 w-[800px] h-[748px] '/>
+  <Image src={image1} alt={'image'} className='pt-[62px] '/>
+
+  <Image src={author} alt={'author'} className='absolute top-[150px] left-[70px] w-[500px]' />
   </div>
      </div>
  
