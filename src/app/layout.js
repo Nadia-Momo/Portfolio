@@ -1,6 +1,9 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Jost ,Vollkorn} from "next/font/google";
 
+export const jost = Jost({ subsets: ["latin"] });
+export const vollkorn = Vollkorn({ subsets: ["latin"] });
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
