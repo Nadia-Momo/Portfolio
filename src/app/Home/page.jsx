@@ -19,9 +19,8 @@ const Homepage = () => {
     
       <About/>
       <Working/>
-      
-      {/* <View/>
-      <Service/> */}
+<View/>
+      <Service/> 
       <Award/>
       <Blog/> 
       <Subscribe/>
