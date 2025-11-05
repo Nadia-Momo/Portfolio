@@ -21,8 +21,8 @@ const Homepage = () => {
       <Working/>
       
       {/* <View/>
-      <Service/>
-      <Award/> */}
+      <Service/> */}
+      <Award/>
       <Blog/> 
       <Subscribe/>
       <Footer/> 
