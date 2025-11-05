@@ -19,13 +19,13 @@ const Homepage = () => {
     
       <About/>
       <Working/>
-      {/* 
-      <View/>
+      
+      {/* <View/>
       <Service/>
-      <Award/>
-      <Blog/>
+      <Award/> */}
+      <Blog/> 
       <Subscribe/>
-      <Footer/> */}
+      <Footer/> 
     </div>
   )
 }
