@@ -3,14 +3,12 @@ import React from 'react'
 import logo from '../images/logo.png'
 import search from '../images/Search.png'
 import menubar from '../images/Manu_bar.png'
-
 import {jost} from '../layout'
-
 const Navbar = () => {
   return (
     <>
     {/* F9F4F1 */}
-<nav className='bg-[#F9F4F1] border-b border-gray-200 pb-[24px]'>
+<nav className='bg-[#F9F4F1] border-b border-gray-200 pb-[24px] hidden lg:block'>
   <div className="container pt-[27px]">
     <div className='flex items-center gap-[364px] '>
        <div>

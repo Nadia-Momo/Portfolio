@@ -9,12 +9,13 @@ import Award from '../components/Award'
 import Blog from '../components/Blog'
 import Subscribe from '../components/Subscribe'
 import Footer from '../components/Footer'
+import Resnav from '../components/Resnav'
 
 const Homepage = () => {
   return (
     <div>
 
-      <Navbar/>
+      
       <Banner/>
     
       <About/>
